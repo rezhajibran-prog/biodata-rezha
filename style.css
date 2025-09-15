@@ -1,0 +1,29 @@
+*.body1 {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #4c00ff;
+    }
+    
+
+    h1 {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: rgb(255, 255, 255);
+    }
+    
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
